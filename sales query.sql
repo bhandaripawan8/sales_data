@@ -26,7 +26,7 @@ GROUP BY product_line;
  FROM sales
  GROUP BY payment;
  
- -- gross income by months
+ -- 5.gross income by months
 SELECT gross_income AS monthly_income, date  FROM sales
 ORDER BY date ASC;
  
